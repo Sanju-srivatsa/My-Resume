@@ -2,13 +2,13 @@
 
 * {
   margin: 0;
-  padding:0;
-  box-sizing:border-box;
-  font-family:"Montserrat", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
-body{
-    background: white;
+body {
+  background: white;
   font-size: 14px;
   line-height: 22px;
   color: #555555;
@@ -28,47 +28,43 @@ body{
   width: 800px;
   height: auto;
   display: flex;
-  margin: 0px  auto;
+  margin: 0px auto;
 }
 
 .resume .resume_left {
   width: 280px;
   background: #fe8c26;
-  
 }
 
-.resume .resume_left .resume_profile img{
-  width:70% auto;
-  height:70% auto;
-  border-radius:50%;
-  margin-top:30px;
+.resume .resume_left .resume_profile img {
+  width: 70% auto;
+  height: 70% auto;
+  border-radius: 50%;
+  margin-top: 30px;
   margin-left: 65px;
   border-color: white;
   border-width: 4px;
   border-style: solid;
   cursor: pointer;
   filter: grayscale(0%);
-  transition: all 800ms; 
+  transition: all 800ms;
 }
-.resume .resume_left .resume_profile img:hover{
+.resume .resume_left .resume_profile img:hover {
   transform: rotate(360deg);
   filter: grayscale(100%);
 }
 
-
-
-.resume .resume_left .resume_content{
+.resume .resume_left .resume_content {
   padding: 0 px;
   margin-top: 20px;
 }
 
-
-.resume .resume_left .title{
-  margin-bottom:30px;
+.resume .resume_left .title {
+  margin-bottom: 30px;
 }
 
-.resume .title{
-  margin-bottom:10px;
+.resume .title {
+  margin-bottom: 10px;
 }
 
 .resume .resume_left .bold {
@@ -81,18 +77,18 @@ body{
 }
 
 .resume .resume_left .resume_main:last-child,
-.resume .resume_right .resume_main:last-child{
-  border-bottom:0px;
+.resume .resume_right .resume_main:last-child {
+  border-bottom: 0px;
 }
 
 .resume .resume_left ul li {
-  display:flex;
-  margin-bottom:10px;
+  display: flex;
+  margin-bottom: 10px;
   align-items: center;
   list-style: none;
 }
-.resume .resume_left ul li:last-child{
-  margin-bottom:20;
+.resume .resume_left ul li:last-child {
+  margin-bottom: 20;
 }
 
 .resume .resume_left ul li .icon {
@@ -101,7 +97,7 @@ body{
   background: #fff;
   color: #fe8c26;
   border-radius: 50%;
-  margin-right:25px;
+  margin-right: 25px;
   margin-bottom: 10px;
   font-size: 22px;
   position: relative;
@@ -111,67 +107,67 @@ body{
 .resume .resume_left .resume_hobby ul li i {
   position: absolute;
   top: 50%;
-  left:50%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.resume .resume_left ul li .data{
+.resume .resume_left ul li .data {
   color: white;
   text-align: right;
 }
 
-.resume .resume_left .content_skills ul li{
+.resume .resume_left .content_skills ul li {
   display: flex;
   margin-top: 20px;
-    color: white; 
-    justify-content: space-between;
+  color: white;
+  justify-content: space-between;
   align-items: center;
 }
 
-.resume .resume_left .content_skills ul li .skill_name{
+.resume .resume_left .content_skills ul li .skill_name {
   width: 25%;
 }
 
-.resume .resume_left .content_skills ul li .skill_progress{
-width: 60%;
+.resume .resume_left .content_skills ul li .skill_progress {
+  width: 60%;
   margin: 0 5px;
   height: 5px;
   background: #fe05;
   position: relative;
 }
 
-.resume .resume_left .content_skills ul li .skill_progress span  {
+.resume .resume_left .content_skills ul li .skill_progress span {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   background: #fff;
-  }
+}
 
-.resume .resume_left .resume_hobby .semi-bold{
+.resume .resume_left .resume_hobby .semi-bold {
   color: #fff;
   margin-left: 20px;
   margin-bottom: 10px;
 }
 
-.resume .resume_right{
+.resume .resume_right {
   width: 600px;
   background: #fff;
-  padding:10px;
+  padding: 10px;
 }
 
-.resume .resume_right .bold{
+.resume .resume_right .bold {
   color: #fe8c26;
 }
 
-.resume .resume_right .resume_work ul, 
-.resume .resume_right .resume_education ul{
+.resume .resume_right .resume_work ul,
+.resume .resume_right .resume_education ul {
   padding-left: 40px;
   overflow: hidden;
 }
 .resume .resume_right .resume_link {
-  text-decoration:none;
-  color:#fe8c26;
+  text-decoration: none;
+  color: #fe8c26;
 }
 .resume .resume_right .special_text {
   color: #fe8c26;
